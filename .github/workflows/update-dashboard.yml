@@ -1,6 +1,8 @@
 name: Update Fantasy Football Dashboard
 
 on:
+  push:
+    branches: [ main ]
   schedule:
     # Run daily at 6 AM EST (11 AM UTC)
     - cron: '0 11 * * *'
